@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Nick Ferry:mailto:Nick.Ferry@ibm.com
+DESCRIPTION:This is the premier\, technical learning event designed with te
+ chnologists for technologists who use IBM products and solutions. It offer
+ s over a thousand technical breakout sessions\, hands-on experiences\, pro
+ duct demonstrations\, instructor-led labs\, and certifications tailored to
+  your interests and learning style.\n\nAttendees will participate in deep\
+ , guided education through hands-on practical experience with the latest I
+ BM tech\, including hybrid cloud and AI\, hear best practices from real pr
+ actitioners\, interact with IBM experts around product roadmaps\, hang out
+  with their peers in a casual and creative environment\, and advance their
+  skills through hands on labs and certifications.\n
+UID:040000008200E00074C5B7101A82E0080000000034EEB762B7CFD901000000000000000
+ 010000000C08E5A9FADAA0C4DA0EFB5B4634A8117
+SUMMARY:TechXchange Conference EMEA 2024
+DTSTART;VALUE=DATE:20240122
+DTEND;VALUE=DATE:20240126
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20230815T203053Z
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+LOCATION:Barcelona International Convention Centre
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGCONFLINK:
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Barcelona International Convention Centre
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-P1W
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
