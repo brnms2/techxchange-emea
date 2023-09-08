@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230908T184832Z
+UID:1694197920489-63546@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230913T103000
+DTEND;TZID=America/Los_Angeles:20230913T113000
+SUMMARY:TechXchange Keynote: The essential elements of future-ready infrastructure
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:AI and hybrid cloud are increasingly influencing IT infrastructure priorities and strategy. AI is becoming mainstream\, yet data access\, quality\, management and privacy challenges remain. Hybrid cloud has become the norm\, and 39% of data breaches studied resulted in the loss of data across multiple environments including public cloud\, private cloud\, and on-prem. As businesses modernize applications\, they are looking to innovate and deploy as-a-service in best-fit environments to improve business outcomes. IBM Infrastructure plays an important role for our clients\; it’s where data\, security\, performance and flexibility meet mission-critical needs\, particularly in regulated industries. Join Hillery Hunter\, CTO and General Manager\, Innovation for IBM Infrastructure to see our latest solutions and learn how we are helping clients deliver new value with future-ready infrastructure.\n\nHillery Hunter\nCTO and General Manager of Innovation for IBM Infrastructure\, IBM\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: The essential elements of future-ready infrastructure
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

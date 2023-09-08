@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230908T184650Z
+UID:1694197469085-14510@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230912T131500
+DTEND;TZID=America/Los_Angeles:20230912T141500
+SUMMARY:TechXchange Keynote: Are You Ready for the New Age of AI and Beyond?
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:Understanding where technology is going can give every enterprise technologist a leg up on the competition. Making the right bets means the difference between leading an industry and getting left behind. In this session\, you will hear from Swaroop Kolluri\, Founder and Director of venture capitalist firm Neotribe Ventures\, on where the hi-tech investment community is making bets in a fireside chat with TechXchange host Jason Gartner. Followed by IBM Fellow\, Ruchir Puri\, Chief Scientist from IBM Research\, who will introduce you to the IBM Technology Atlas. Drilling down on the AI roadmap in particular will help you guide the business decisions needed to bring a new era of performance and efficiency to your business.\n\nJason Gartner\nGM\, Technical Sales & Client Engineering\, IBM\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: Are You Ready for the New Age of AI and Beyond?
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

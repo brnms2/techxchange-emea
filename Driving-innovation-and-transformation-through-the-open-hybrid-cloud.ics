@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230908T184857Z
+UID:1694198017178-64464@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230913T131500
+DTEND;TZID=America/Los_Angeles:20230913T141500
+SUMMARY:TechXchange Keynote: Driving innovation and transformation through the open hybrid cloud
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:The battle is over and Hybrid Cloud has won. In 2021\, only 2% of companies reported using a single public cloud as their primary archetype - the remainder leverage a hybrid cloud architecture. An open source environment enables microservices\, containers\, Kubernetes and AI to be deployed to optimize agility and speed at scale. The challenge can be staying ahead of the technology curve and positioning your enterprise for continued success. At IBM and Red Hat\, hybrid cloud is the foundation of everything we do\, leveraging open source in a multi-cloud environment to kickstart innovation. The advent of Generative AI has acted as an accelerant to business transformation increasing efficiency and productivity. Join Chris Wright\, CTO of Red Hat\, who will share innovations available today\, and new technologies and approaches currently in development that will accelerate development cycles and optimize your cloud performance.\n\nChris Wright\nChief Technology Officer and Senior Vice President of Global Engineering\, Red Hat\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: Driving innovation and transformation through the open hybrid cloud
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

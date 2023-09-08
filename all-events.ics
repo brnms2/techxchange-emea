@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230908T184523Z
+UID:1694196416210-76192@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230912T103000
+DTEND;TZID=America/Los_Angeles:20230912T113000
+SUMMARY:TechXchange Keynote: In a world where AI writes code\, what is the role of the developer?
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:Generative AI is poised to transform enterprises. Its rapid advancement may raise questions about how it will impact various professions\, especially that of the developer. Join Dinesh Nirmal\, Senior Vice President of Products\, IBM Software\, for a discussion about what is possible and what is real when it comes to generative AI and its implications for enterprise technologists. He’ll be joined by a series of guests who will together explore key enterprise use cases\, demonstrate IBM’s enterprise-ready\, AI and data platform with AI Assistants\, and showcase the technology’s full potential from the perspective of enterprises that are putting it to work. Learn how generative AI is unlocking new levels of productivity and how it will enable today’s technologists to build the future.\n\nDinesh Nirmal\nSenior Vice President\, Products\, IBM Software\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: In a world where AI writes code, what is the role of the developer?
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230908T184523Z
+UID:1694197469085-14510@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230912T131500
+DTEND;TZID=America/Los_Angeles:20230912T141500
+SUMMARY:TechXchange Keynote: Are You Ready for the New Age of AI and Beyond?
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:Understanding where technology is going can give every enterprise technologist a leg up on the competition. Making the right bets means the difference between leading an industry and getting left behind. In this session\, you will hear from Swaroop Kolluri\, Founder and Director of venture capitalist firm Neotribe Ventures\, on where the hi-tech investment community is making bets in a fireside chat with TechXchange host Jason Gartner. Followed by IBM Fellow\, Ruchir Puri\, Chief Scientist from IBM Research\, who will introduce you to the IBM Technology Atlas. Drilling down on the AI roadmap in particular will help you guide the business decisions needed to bring a new era of performance and efficiency to your business.\n\nJason Gartner\nGM\, Technical Sales & Client Engineering\, IBM\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: Are You Ready for the New Age of AI and Beyond?
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230908T184523Z
+UID:1694197602816-87761@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230912T143000
+DTEND;TZID=America/Los_Angeles:20230912T153000
+SUMMARY:TechXchange Keynote: Why a Data Lakehouse is the Best Approach for Scaling AI Workloads\, Anywhere
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:Many organizations with data warehouses or data lakes are discovering that they are not prepared to scale AI workloads. A lack of processes and standards has led to a growing quagmire of unstructured\, ungoverned data\, best described as a “data swamp.” In this session\, Paul Zikopoulos\, Vice President of IBM Technology\, will introduce you to a new approach using an open source\, data lakehouse strategy\, which can help resolve the problems hindering your ability to put analytics and AI to work at scale. Then\, Tarun Chopra\, Vice President of Product Management for Data and AI\, will dive into IBM watsonx.data\, a fit-for-purpose data store to scale AI workloads\, and how leading companies are deploying it within their data strategy.\n\nPaul Zikopoulos\nVice President\, IBM Skills Vitality and Enablement\, IBM\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: Why a Data Lakehouse is the Best Approach for Scaling AI Workloads, Anywhere
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230908T184523Z
+UID:1694197700377-66976@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230912T154500
+DTEND;TZID=America/Los_Angeles:20230912T164500
+SUMMARY:TechXchange Keynote: New automation technologies for the next generation of business and IT
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:From the printing press to the robotic assembly line\, each advancement in automation has improved our quality of life and freed up employees to do higher value work. The current generation of automation leverages AI to perform activities that can’t be performed at human scale\, such as helping customer service calculate in real time the probability of customer churn or recommending a way to optimize AWS resources for performance and cost. The new generation of AI-driven automation will empower business teams to better engage customers and employees\, as well as to optimize cost across the entire hybrid cloud environment. Join Madhu Kochar\, VP of Product Development\, to learn how breakthrough automation technologies leverage conversational AI\, Kafka event streams\, and AI-driven optimization to meet these challenges and empower the next generation of business and IT.\n\nMadhu Kochar\nVice President\, Product Development\, IBM Automation\, IBM\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: New automation technologies for the next generation of business and IT
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230908T184523Z
+UID:1694197816881-52665@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230913T091500
+DTEND;TZID=America/Los_Angeles:20230913T101500
+SUMMARY:TechXchange Keynote: Secure your enterprise for the quantum era
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:Quantum computers are expected to bring significant business and societal opportunity\, but they also present a challenge to the modern digital economy: large-scale quantum computers will be able to break the security protocols we rely upon to safeguard our data and networks. Businesses face an imperative to prepare for this new computational era by upgrading their cybersecurity with quantum-safe cryptographic solutions. Building on IBM’s long-standing expertise in quantum technology and cryptography research\, IBM Quantum has developed a comprehensive set of quantum-safe tools\, capabilities\, and approaches to help organizations navigate this transition. Learn how one of our clients is using IBM Quantum Safe technology to understand their risk posture\, build crypto-agility\, and secure their enterprise for the era of quantum.\n\nJay Gambetta\nIBM Fellow and VP of IBM Quantum\, IBM\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: Secure your enterprise for the quantum era
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230908T184523Z
+UID:1694197920489-63546@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230913T103000
+DTEND;TZID=America/Los_Angeles:20230913T113000
+SUMMARY:TechXchange Keynote: The essential elements of future-ready infrastructure
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:AI and hybrid cloud are increasingly influencing IT infrastructure priorities and strategy. AI is becoming mainstream\, yet data access\, quality\, management and privacy challenges remain. Hybrid cloud has become the norm\, and 39% of data breaches studied resulted in the loss of data across multiple environments including public cloud\, private cloud\, and on-prem. As businesses modernize applications\, they are looking to innovate and deploy as-a-service in best-fit environments to improve business outcomes. IBM Infrastructure plays an important role for our clients\; it’s where data\, security\, performance and flexibility meet mission-critical needs\, particularly in regulated industries. Join Hillery Hunter\, CTO and General Manager\, Innovation for IBM Infrastructure to see our latest solutions and learn how we are helping clients deliver new value with future-ready infrastructure.\n\nHillery Hunter\nCTO and General Manager of Innovation for IBM Infrastructure\, IBM\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: The essential elements of future-ready infrastructure
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230908T184523Z
+UID:1694198017178-64464@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230913T131500
+DTEND;TZID=America/Los_Angeles:20230913T141500
+SUMMARY:TechXchange Keynote: Driving innovation and transformation through the open hybrid cloud
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:The battle is over and Hybrid Cloud has won. In 2021\, only 2% of companies reported using a single public cloud as their primary archetype - the remainder leverage a hybrid cloud architecture. An open source environment enables microservices\, containers\, Kubernetes and AI to be deployed to optimize agility and speed at scale. The challenge can be staying ahead of the technology curve and positioning your enterprise for continued success. At IBM and Red Hat\, hybrid cloud is the foundation of everything we do\, leveraging open source in a multi-cloud environment to kickstart innovation. The advent of Generative AI has acted as an accelerant to business transformation increasing efficiency and productivity. Join Chris Wright\, CTO of Red Hat\, who will share innovations available today\, and new technologies and approaches currently in development that will accelerate development cycles and optimize your cloud performance.\n\nChris Wright\nChief Technology Officer and Senior Vice President of Global Engineering\, Red Hat\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: Driving innovation and transformation through the open hybrid cloud
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

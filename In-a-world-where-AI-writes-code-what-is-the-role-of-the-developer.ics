@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230908T184610Z
+UID:1694196416210-76192@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230912T103000
+DTEND;TZID=America/Los_Angeles:20230912T113000
+SUMMARY:TechXchange Keynote: In a world where AI writes code\, what is the role of the developer?
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:Generative AI is poised to transform enterprises. Its rapid advancement may raise questions about how it will impact various professions\, especially that of the developer. Join Dinesh Nirmal\, Senior Vice President of Products\, IBM Software\, for a discussion about what is possible and what is real when it comes to generative AI and its implications for enterprise technologists. He’ll be joined by a series of guests who will together explore key enterprise use cases\, demonstrate IBM’s enterprise-ready\, AI and data platform with AI Assistants\, and showcase the technology’s full potential from the perspective of enterprises that are putting it to work. Learn how generative AI is unlocking new levels of productivity and how it will enable today’s technologists to build the future.\n\nDinesh Nirmal\nSenior Vice President\, Products\, IBM Software\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: In a world where AI writes code, what is the role of the developer?
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

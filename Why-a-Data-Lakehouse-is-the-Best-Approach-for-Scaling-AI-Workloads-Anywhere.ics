@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230908T184716Z
+UID:1694197602816-87761@ical.marudot.com
+DTSTART;TZID=America/Los_Angeles:20230912T143000
+DTEND;TZID=America/Los_Angeles:20230912T153000
+SUMMARY:TechXchange Keynote: Why a Data Lakehouse is the Best Approach for Scaling AI Workloads\, Anywhere
+URL:https://www.ibm.com/community/ibm-techxchange-conference/
+DESCRIPTION:Many organizations with data warehouses or data lakes are discovering that they are not prepared to scale AI workloads. A lack of processes and standards has led to a growing quagmire of unstructured\, ungoverned data\, best described as a “data swamp.” In this session\, Paul Zikopoulos\, Vice President of IBM Technology\, will introduce you to a new approach using an open source\, data lakehouse strategy\, which can help resolve the problems hindering your ability to put analytics and AI to work at scale. Then\, Tarun Chopra\, Vice President of Product Management for Data and AI\, will dive into IBM watsonx.data\, a fit-for-purpose data store to scale AI workloads\, and how leading companies are deploying it within their data strategy.\n\nPaul Zikopoulos\nVice President\, IBM Skills Vitality and Enablement\, IBM\n\nMGM Grand\, Las Vegas\, NV\nGrand Ballroom 115 & 120\, Level 1\n\nJoin the Live Stream: https://www.ibm.com/community/ibm-techxchange-conference/
+LOCATION:Digital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TechXchange Keynote: Why a Data Lakehouse is the Best Approach for Scaling AI Workloads, Anywhere
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
