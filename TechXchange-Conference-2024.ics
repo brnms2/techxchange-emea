@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:IBM TechXchange Conference 2024
+DTSTART:20241021T040000Z
+DTEND:20241025T035900Z
+UID:1705681178664-IBMTechXchangeConference2024
+DESCRIPTION:Join the IBM TechXchange Conference 2024, a premier technical learning event for developers, data scientists, IT architects & more. Experience hands-on sessions, product demos, and networking opportunities. 
+LOCATION:Mandalay Bay | Las Vegas
+ORGANIZER:
+STATUS:CONFIRMED
+PRIORITY:0
+END:VEVENT
+END:VCALENDAR
